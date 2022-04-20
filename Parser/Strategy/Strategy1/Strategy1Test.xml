@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Strategy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="A.xml">
+  <TradeType name="Buy">
+    <Сonjunction>
+      <Term>
+        <LeftOperand>rsi_common</LeftOperand>
+        <Operator>above</Operator>
+        <RigthOperand>Level_ones</RigthOperand>
+      </Term>
+    </Сonjunction>
+  </TradeType>
+  <TradeType name="Sell">
+    <Сonjunction>
+      <Term>
+        <LeftOperand>rsi_common</LeftOperand>
+        <Operator>under</Operator>
+        <RigthOperand>Level_ones</RigthOperand>
+      </Term>
+    </Сonjunction>
+  </TradeType>
+</Strategy>

@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "IndicatorService": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "weatherforecast",
+      "applicationUrl": "https://localhost:44371;http://localhost:56873",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

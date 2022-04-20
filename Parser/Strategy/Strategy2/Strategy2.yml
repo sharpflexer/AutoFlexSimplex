@@ -1,0 +1,9 @@
+Paramets:
+  bb_medium:
+    CandleNumber: 2
+    Indicator: bb
+    Period: 20
+  sma_light:
+    CandleNumber: 1
+    Indicator: sma
+    Period: 10

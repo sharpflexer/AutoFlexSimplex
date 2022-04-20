@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "AF_RobotService": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": true,
+      "launchUrl": "api/robot/StartTestRobot",
+      "applicationUrl": "https://localhost:44359;http://localhost:52096",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

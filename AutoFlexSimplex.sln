@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFlexSimplex.BinanceService", "BinanceService\AutoFlexSimplex.BinanceService.csproj", "{8B36D1A9-C4FE-4E78-8AD6-94706EAEA324}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFlexSimplex.IndicatorService", "IndicatorService\AutoFlexSimplex.IndicatorService.csproj", "{C6EE1A20-7DA8-46C8-8EB5-D43E64B03066}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFlexSimplex.StrategyService", "Strategy\AutoFlexSimplex.StrategyService.csproj", "{6C49D3B5-CA36-42A4-BCEF-0AED34A8C5EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFlexSimplex.ParserService", "Parser\AutoFlexSimplex.ParserService.csproj", "{27F82BEF-3A9B-43D3-B513-A6CE1A0768E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyParser.Domain", "StrategyParser\StrategyParser.Domain.csproj", "{76B7E06B-C024-45F1-864E-0F35E898A15B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFlexSimplex.RobotService", "AF_RobotService\AutoFlexSimplex.RobotService.csproj", "{53524FA5-F365-46DD-9B58-E2E646324C3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B36D1A9-C4FE-4E78-8AD6-94706EAEA324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B36D1A9-C4FE-4E78-8AD6-94706EAEA324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B36D1A9-C4FE-4E78-8AD6-94706EAEA324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B36D1A9-C4FE-4E78-8AD6-94706EAEA324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EE1A20-7DA8-46C8-8EB5-D43E64B03066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EE1A20-7DA8-46C8-8EB5-D43E64B03066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EE1A20-7DA8-46C8-8EB5-D43E64B03066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EE1A20-7DA8-46C8-8EB5-D43E64B03066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C49D3B5-CA36-42A4-BCEF-0AED34A8C5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C49D3B5-CA36-42A4-BCEF-0AED34A8C5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C49D3B5-CA36-42A4-BCEF-0AED34A8C5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C49D3B5-CA36-42A4-BCEF-0AED34A8C5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F82BEF-3A9B-43D3-B513-A6CE1A0768E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F82BEF-3A9B-43D3-B513-A6CE1A0768E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F82BEF-3A9B-43D3-B513-A6CE1A0768E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F82BEF-3A9B-43D3-B513-A6CE1A0768E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B7E06B-C024-45F1-864E-0F35E898A15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B7E06B-C024-45F1-864E-0F35E898A15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B7E06B-C024-45F1-864E-0F35E898A15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B7E06B-C024-45F1-864E-0F35E898A15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53524FA5-F365-46DD-9B58-E2E646324C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53524FA5-F365-46DD-9B58-E2E646324C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53524FA5-F365-46DD-9B58-E2E646324C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53524FA5-F365-46DD-9B58-E2E646324C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D40DABF-4CE7-4602-B1AC-E099BE15C6A9}
+	EndGlobalSection
+EndGlobal

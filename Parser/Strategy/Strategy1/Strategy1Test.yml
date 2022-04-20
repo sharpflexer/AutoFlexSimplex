@@ -1,0 +1,17 @@
+Parameters:
+ Constant:
+  Level_ones: 50
+  Level_two: 50
+ Indicator:
+  rsi_common:
+    CandleNumber: 2
+    Indicator: rsi
+    Period: 14
+  sma_light:
+    CandleNumber: 2
+    Indicator: sma
+    Period: 1
+  sma_medium:
+    CandleNumber: 2
+    Indicator: sma
+    Period: 3

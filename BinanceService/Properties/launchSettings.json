@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "TestApi": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "api/binance/data",
+      "applicationUrl": "https://localhost:44319;http://localhost:49464",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

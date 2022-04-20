@@ -1,0 +1,102 @@
+Parameters:
+ Constant:
+  tdRsiLevel: 0
+  rsiLevelBuy: 40
+  rsiLevelSell: 60
+  vltlLevel: 0.2
+ Indicator:
+  rsiMain:
+   CandleNumber: 1
+   Indicator: rsi
+   Period: 20
+  bbu1:
+   CandleNumber: 1
+   Indicator: bb_upper
+   Period: 200
+   Stdv: 2 
+  bbl1:
+   CandleNumber: 1
+   Indicator: bb_low
+   Period: 200
+   Stdv: 2 
+  bbu2:
+   CandleNumber: 2
+   Indicator: bb_upper
+   Period: 200
+   Stdv: 2 
+  bbl2:
+   CandleNumber: 2
+   Indicator: bb_low
+   Period: 200
+   Stdv: 2 
+  bbu3:
+   CandleNumber: 3
+   Indicator: bb_upper
+   Period: 200
+   Stdv: 2 
+  bbl3:
+   CandleNumber: 3
+   Indicator: bb_low
+   Period: 200
+   Stdv: 2
+  wbbu1:
+   CandleNumber: 1
+   Indicator: wbb_high
+   Period: 16
+   Stdv: 2
+  wbbu2:
+   CandleNumber: 2
+   Indicator: wbb_high
+   Period: 16
+   Stdv: 2
+  wbbu3:
+   CandleNumber: 3
+   Indicator: wbb_high
+   Period: 16
+   Stdv: 2
+  wbbm1:
+   CandleNumber: 1
+   Indicator: wbb_medium
+   Period: 16
+   Stdv: 2
+  wbbm2:
+   CandleNumber: 2
+   Indicator: wbb_medium
+   Period: 16
+   Stdv: 2
+  wbbm3:
+   CandleNumber: 3
+   Indicator: wbb_medium
+   Period: 16
+   Stdv: 2
+  wbbl1:
+   CandleNumber: 1
+   Indicator: wbb_low
+   Period: 16
+   Stdv: 2
+  wbbl2:
+   CandleNumber: 2
+   Indicator: wbb_low
+   Period: 16
+   Stdv: 2
+  wbbl3:
+   CandleNumber: 3
+   Indicator: wbb_low
+   Period: 16
+   Stdv: 2
+  bdrsi_dispup:
+   CandleNumber: 1
+   Indicator: bdrsi_highdisp
+   Period: 100
+   Stdv: 2
+   Disp: 0.1
+  bdrsi_dispdown:
+   CandleNumber: 1
+   Indicator: bdrsi_lowdisp
+   Period: 100
+   Stdv: 2
+   Disp: 0.1
+  vltl:
+   CandleNumber: 1
+   Indicator: vltl
+   Period: 24

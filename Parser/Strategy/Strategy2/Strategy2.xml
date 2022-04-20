@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Strategy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="strategy">
+  <Buy name="Buy">
+    <Logicals>
+      <LogicContainer name="Сonjunction">
+        <Disjunction name="Disjunction">
+          <term>
+            <Line>rsi_second above 70</Line>
+          </term>
+          <term>
+            <Line>sma_medium below sdasd</Line>
+          </term>
+        </Disjunction>
+        <term>
+          <Line>sma_ligth equals 50</Line>
+        </term>
+      </LogicContainer>
+    </Logicals>
+  </Buy>
+</Strategy>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Binance.Net" Version="6.13.4" />
+    <PackageReference Include="CryptoExchange.Net" Version="3.9.0" />
+    <PackageReference Include="Trady.Analysis" Version="3.2.8" />
+    <PackageReference Include="Trady.Core" Version="3.2.9" />
+    <PackageReference Include="Trady.Importer" Version="3.2.0" />
+  </ItemGroup>
+
+
+</Project>
